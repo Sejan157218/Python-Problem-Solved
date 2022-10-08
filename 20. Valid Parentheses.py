@@ -4,17 +4,6 @@ from unittest import result
 class Solution:
     def isValid(self, s: str) -> bool:
         
-        # stack, pchar = [], {"(": ")", "{": "}", "[": "]"}
-        # for parenthese in s:
-      
-        #     if parenthese in pchar:
-        #         stack.append(parenthese)
-        #     elif pchar[stack.pop()] != parenthese:
-        #         return False
-   
-        # return len(stack) == 0
-
-
         arry=[]
         obt={
             "(":")",
