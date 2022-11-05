@@ -1,5 +1,3 @@
-from turtle import pensize
-
 
 class Solution:
     def twoSum(self, nums,target: int):
